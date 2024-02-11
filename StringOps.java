@@ -87,7 +87,7 @@ public class StringOps {
 
         //establish variables for the return val and vowels
         String ans = "";
-        String vow ="aeiou";
+        String vow ="aeiouAEIOU";
 
         //checks every char and adds it to the answer string
         for (int i = 0; i <string.length() ; i++) {
